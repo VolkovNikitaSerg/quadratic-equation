@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Calculator</title>
+    <link href="https://fonts.googleapis.com/css?family=Exo+2|Kanit|Montserrat+Alternates|Mukta|Nunito|Righteous" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS"
+        crossorigin="anonymous">
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js" integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k"
+        crossorigin="anonymous"></script>
+</head>
+
+<body>
+
+    <div class="jumbotron jumbotron-fluid text-center" id="header">
+        <h1>Quadratic Equation Calculator</h1>
+        <p class="lead">With this tool you can solve any quadratic equation</p>
+    </div>
+
+    <section id="container" class="container col-xl-5 col-md-7 col-sm-9">
+
+        <div class="row">
+
+            <div class="col-md-6">
+                    <div class="col-12">
+                        <div class="form-group">
+                            <label for="var_a">Variable A</label>
+                            <input id="var_a" class="form-control" name="var_a" type="text" placeholder="Enter value here">
+                        </div>
+                    </div>
+                    <div class="col-12">
+                        <div class="form-group">
+                            <label for="var_b">Variable B</label>
+                            <input id="var_b" class="form-control" name="var_b" type="text" placeholder="Enter value here">
+                        </div>
+                    </div>
+                    <div class="col-12">
+                        <div class="form-group">
+                            <label for="var_c">Variable C</label>
+                            <input id="var_c" class="form-control" name="var_c" type="text" placeholder="Enter value here">
+                        </div>
+                    </div>
+            </div>
+
+            <div class="col-md-6">
+                <div class="col-12">
+                    <div class="form-group">
+                        <label for="discriminant">Discriminant</label>
+                        <input id="discriminant" class="form-control" name="discriminant" type="text" placeholder="Discriminant will be here">
+                    </div>
+                </div>
+                <div class="col-12">
+                    <div class="form-group">
+                        <label for="first_root">First Root</label>
+                        <input id="first_root" class="form-control" name="first_root" type="text" placeholder="First root will be here">
+                    </div>
+                </div>
+                <div class="col-12">
+                    <div class="form-group">
+                        <label for="second_root">Second Root</label>
+                        <input id="second_root" class="form-control" name="second_root" type="text" placeholder="Second root will be here">
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-12 text-center">
+                <button id="solve-button" class="btn btn-secondary btn-lg col-md-7">Solve</button>
+            </div>
+
+        </div>
+
+    </section>
+
+    <script src="script.js"></script>
+
+</body>
+
+</html>

@@ -1,0 +1,34 @@
+/* GLOBAL SECTION */
+body {
+    background: #D3CCE3;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to left, #E9E4F0, #D3CCE3);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to left, #E9E4F0, #D3CCE3); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+/* HEADER SECTION */
+#header {
+    background: #0F2027;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to bottom, #2C5364, #203A43, #0F2027);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to bottom, #2C5364, #203A43, #0F2027); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    color: white;
+    font-family: 'Righteous', cursive;
+}
+
+#header h1 {
+    font-size: 50px;
+}
+
+/* CONTAINER SECTION */
+#container {
+    font-family: 'Kanit', sans-serif;
+}
+
+/* MEDIA QUERIES */
+@media (max-width: 600px) { 
+    #header h1 {
+        font-size: 30px;
+    }
+    #header p {
+        font-size: 12px;
+    }
+}
