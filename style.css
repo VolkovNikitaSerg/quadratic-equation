@@ -31,4 +31,9 @@ body {
     #header p {
         font-size: 12px;
     }
+    
+    .btn {
+        margin-bottom: 20px;
+        width: 150px;
+    }
 }
