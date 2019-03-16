@@ -10,8 +10,8 @@ function setVariables() {
 function solve_equation(a, b, c) {
     let d = (b ** 2) - (4 * a * c);
     if (d >= 0) {
-        let x1 = ((-b + Math.sqrt(d)) / 2 * a).toFixed(3);
-        let x2 = ((-b - Math.sqrt(d)) / 2 * a).toFixed(3);
+        let x1 = ((-b + Math.sqrt(d)) / (2 * a)).toFixed(3);
+        let x2 = ((-b - Math.sqrt(d)) / (2 * a)).toFixed(3);
         return {x1, x2, d}
     } else {
         return {x1: "No roots", x2: "No roots", d}
